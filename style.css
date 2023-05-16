@@ -49,6 +49,11 @@
   padding: 5% 0;
 }
 
+.testimonial .leftcolumn {
+  flex-basis: 50%;
+  height: 100%;
+}
+
 .home .content .leftcolumn {
   flex-basis: 45%;
 }
@@ -58,6 +63,14 @@
   font-weight: 700;
   color: hsl(243, 87%, 12%);
   font-family: "Raleway", sans-serif;
+}
+
+.testimonial .leftcolumn p {
+  font-size: 15px;
+  font-weight: 300;
+  color: hsl(238, 22%, 44%);
+  margin: 15px 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 .home .content .leftcolumn p {
@@ -102,8 +115,17 @@
   background: hsl(224, 93%, 58%);
 }
 
+.testimonial .rightcolumn {
+  flex-basis: 40%;
+}
+
 .home .content .rightcolumn {
   flex-basis: 50%;
+}
+
+.testimonial .rightcolumn img {
+  width: 100%;
+  height: 100%;
 }
 
 .home .content .rightcolumn img {
@@ -111,7 +133,7 @@
   height: 100%;
 }
 
-/**Testimonial section**/
+/* Testimonial section */
 .testimonial {
   width: 100%;
   min-height: 100vh;
@@ -125,33 +147,11 @@
   background-size: cover;
 }
 
-.testimonial .rightcolumn {
-  flex-basis: 40%;
-}
-
-.testimonial .rightcolumn img {
-  width: 100%;
-  height: 100%;
-}
-
-.testimonial .leftcolumn {
-  flex-basis: 50%;
-  height: 100%;
-}
-
 .testimonial .leftcolumn h2 {
   font-size: 30px;
   font-weight: 700;
   color: hsl(243, 87%, 12%);
   font-family: "Raleway", sans-serif;
-}
-
-.testimonial .leftcolumn p {
-  font-size: 15px;
-  font-weight: 300;
-  color: hsl(238, 22%, 44%);
-  margin: 15px 0;
-  font-family: "Open Sans", sans-serif;
 }
 
 .testimonial .leftcolumn .button .explore_button {
@@ -195,6 +195,7 @@
   display: flex;
   align-items: center;
   font-family: "Open Sans", sans-serif;
+  margin-left: 5px;
 }
 
 .testimonial .leftcolumn .card .profile img {
@@ -202,16 +203,12 @@
   border-radius: 50%;
 }
 
-.testimonial .leftcolumn .card .profile {
-  margin-left: 5px;
-}
-
 .testimonial .leftcolumn .card .profile p {
   margin: 2px 5px;
   font-size: 10px;
 }
 
-/**Subscribe section**/
+/* Subscribe section */
 .subscribe {
   width: 100%;
   padding: 7% 5%;
