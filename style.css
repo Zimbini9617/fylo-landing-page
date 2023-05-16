@@ -54,6 +54,11 @@
   height: 100%;
 }
 
+.subscribe .leftcolumn {
+  flex-basis: 50%;
+  position: relative;
+}
+
 .home .content .leftcolumn {
   flex-basis: 45%;
 }
@@ -79,6 +84,13 @@
   color: hsl(238, 22%, 44%);
   margin: 15px 0;
   font-family: "Open Sans", sans-serif;
+}
+
+.subscribe .rightcolumn .inputfield {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .home .content .leftcolumn .inputfield {
@@ -145,11 +157,6 @@
 
 .testimonial .rightcolumn {
   flex-basis: 40%;
-}
-
-.subscribe .leftcolumn {
-  flex-basis: 50%;
-  position: relative;
 }
 
 .subscribe .rightcolumn {
@@ -275,11 +282,4 @@
   font-size: 700;
   color: hsl(240, 75%, 98%);
   font-family: "Raleway", sans-serif;
-}
-
-.subscribe .rightcolumn .inputfield {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }
