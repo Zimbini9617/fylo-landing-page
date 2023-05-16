@@ -88,6 +88,13 @@
   justify-content: space-between;
 }
 
+.subscribe .rightcolumn .inputfield input {
+  flex-basis: 100%;
+  padding: 10px 5px;
+  border: 1px solid hsl(0, 0%, 75%);
+  font-family: "Open Sans", sans-serif;
+}
+
 .home .content .leftcolumn .inputfield input {
   flex-basis: 65%;
   padding: 10px;
@@ -95,8 +102,25 @@
   font-family: "Open Sans", sans-serif;
 }
 
+.subscribe .rightcolumn .inputfield input::placeholder {
+  color: hsl(0, 0%, 75%);
+}
+
 .home .content .leftcolumn .inputfield input::placeholder {
   color: hsl(0, 0%, 75%);
+}
+
+.subscribe .rightcolumn .inputfield button {
+  flex-basis: 40%;
+  padding: 10px 5px;
+  border: 0;
+  outline: none;
+  background: hsl(239, 61%, 34%);
+  color: hsl(0, 0%, 100%);
+  transition: 0.5s;
+  cursor: pointer;
+  margin-top: 10px;
+  font-family: "Raleway", sans-serif;
 }
 
 .home .content .leftcolumn .inputfield button {
@@ -111,11 +135,24 @@
   font-family: "Raleway", sans-serif;
 }
 
+.subscribe .rightcolumn .inputfield button:hover {
+  background: hsl(224, 93%, 58%);
+}
+
 .home .content .leftcolumn .inputfield button:hover {
   background: hsl(224, 93%, 58%);
 }
 
 .testimonial .rightcolumn {
+  flex-basis: 40%;
+}
+
+.subscribe .leftcolumn {
+  flex-basis: 50%;
+  position: relative;
+}
+
+.subscribe .rightcolumn {
   flex-basis: 40%;
 }
 
@@ -203,6 +240,15 @@
   border-radius: 50%;
 }
 
+.subscribe .leftcolumn .content p {
+  font-size: 14px;
+  font-weight: 300;
+  color: hsl(240, 75%, 98%);
+  margin: 15px 0 0 0;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+
 .testimonial .leftcolumn .card .profile p {
   margin: 2px 5px;
   font-size: 10px;
@@ -220,11 +266,6 @@
   flex-wrap: wrap;
 }
 
-.subscribe .leftcolumn {
-  flex-basis: 50%;
-  position: relative;
-}
-
 .subscribe .leftcolumn .content {
   width: 80%;
 }
@@ -236,50 +277,9 @@
   font-family: "Raleway", sans-serif;
 }
 
-.subscribe .leftcolumn .content p {
-  font-size: 14px;
-  font-weight: 300;
-  color: hsl(240, 75%, 98%);
-  margin: 15px 0 0 0;
-  letter-spacing: 1px;
-  font-family: "Open Sans", sans-serif;
-}
-
-.subscribe .rightcolumn {
-  flex-basis: 40%;
-}
-
 .subscribe .rightcolumn .inputfield {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.subscribe .rightcolumn .inputfield input {
-  flex-basis: 100%;
-  padding: 10px 5px;
-  border: 1px solid hsl(0, 0%, 75%);
-  font-family: "Open Sans", sans-serif;
-}
-
-.subscribe .rightcolumn .inputfield input::placeholder {
-  color: hsl(0, 0%, 75%);
-}
-
-.subscribe .rightcolumn .inputfield button {
-  flex-basis: 40%;
-  padding: 10px 5px;
-  border: 0;
-  outline: none;
-  background: hsl(239, 61%, 34%);
-  color: hsl(0, 0%, 100%);
-  transition: 0.5s;
-  cursor: pointer;
-  margin-top: 10px;
-  font-family: "Raleway", sans-serif;
-}
-
-.subscribe .rightcolumn .inputfield button:hover {
-  background: hsl(224, 93%, 58%);
 }
