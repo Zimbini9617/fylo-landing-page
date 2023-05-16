@@ -1,149 +1,50 @@
-/* reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-:root {
-  font-size: 62.5%;
-
-  --p-dark-blue: hsl(243, 87%, 12%);
-  --p-blue: hsl(238, 22%, 44%);
-  --a-bright-blue: hsl(224, 93%, 58%);
-  --a-moderate-cyan: hsl(170, 45%, 43%);
-  --light-gray-blue: hsl(240, 75%, 98%);
-  --light-gray: hsl(0, 0%, 75%);
-}
-
-body {
-  font-family: "Open sans", sans-serif;
-}
-
-h1,
-h2,
-h3,
-h4,
-a {
-  font-family: "Raleway", sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: var(--p-blue);
-  font-size: 1.8rem;
-  font-weight: 400;
-}
-
-li {
-  list-style-type: none;
-}
-
-img {
+/**Home**/
+.home {
   width: 100%;
-  object-fit: cover;
+  min-height: 100vh;
+  position: relative;
+  padding: 3% 5%;
 }
 
-.container {
-  width: 80%;
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-/* header */
-
-header {
-  padding: 30px 0;
-}
-
-.menu-container {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-
-.row {
+.home header {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 
-/* main hero */
-main {
-  margin: 20px 0;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.hero h1 {
-  font-size: 4rem;
-  line-height: 1.2;
-  max-width: 90%;
-  color: var(--p-blue);
-}
-
-.hero p {
-  margin: 20px 0;
-  font-size: 2rem;
-}
-
-.btn {
-  background-color: var(--a-bright-blue);
-  padding: 10px 16px;
-  margin-left: 16px;
-  color: white;
-  border: none;
+.home header .logo {
+  width: 100px;
   cursor: pointer;
 }
 
-input {
-  padding: 8px;
-  width: 60%;
+.home header nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin-right: 40px;
 }
 
-@media (max-width: 475px) {
-  .container {
-    width: 96%;
-  }
+.home header nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: hsl(243, 87%, 12%);
+  font-family: "Raleway", sans-serif;
+}
 
-  .img_logo {
-    width: 80px;
-  }
-
-  a {
-    font-size: 1.2rem;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .col2 {
-    grid-row: 1;
-    grid-column: 1;
-  }
-
-  main {
-    margin: 50px 0;
-  }
-
-  .col1 {
-    text-align: center;
-    margin: 20px 0;
-  }
-
-  .btn {
-    display: block;
-    width: 100%;
-    margin: 16px auto 0 auto;
-  }
-
-  input {
-    display: block;
-    width: 90%;
-    margin: 0 auto;
-  }
+.home .content {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 5% 0;
 }
