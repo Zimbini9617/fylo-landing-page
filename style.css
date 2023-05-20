@@ -36,6 +36,13 @@ footer .logo {
   margin-right: 40px;
 }
 
+footer .attribution a {
+  color: hsl(224, 93%, 58%);
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  transition: 0.5s;
+}
+
 .home header nav ul li a {
   text-decoration: none;
   font-size: 14px;
@@ -186,6 +193,11 @@ footer .sitemap .contact p {
   height: 100%;
 }
 
+footer .sitemap .contact p img {
+  margin-right: 10px;
+  width: 10px;
+}
+
 .home .content .rightcolumn img {
   width: 100%;
   height: 100%;
@@ -315,11 +327,6 @@ footer .sitemap .contact {
   flex-basis: 70%;
 }
 
-footer .sitemap .contact p img {
-  margin-right: 10px;
-  width: 10px;
-}
-
 footer .sitemap .links_1 {
   flex-basis: 40%;
 }
@@ -327,6 +334,10 @@ footer .sitemap .links_1 {
 footer .sitemap .links_1 ul li {
   display: block;
   margin-bottom: 8px;
+}
+
+footer .attribution a:hover {
+  color: hsla(224, 93%, 58%, 0.514);
 }
 
 footer .sitemap .links_1 ul li a {
@@ -347,15 +358,4 @@ footer .attribution {
   text-align: center;
   color: white;
   font-family: "Open Sans", sans-serif;
-}
-
-footer .attribution a {
-  color: hsl(224, 93%, 58%);
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  transition: 0.5s;
-}
-
-footer .attribution a:hover {
-  color: hsla(224, 93%, 58%, 0.514);
 }
