@@ -20,6 +20,11 @@
   position: relative;
 }
 
+footer .logo {
+  width: 130px;
+  filter: brightness(0) invert(1);
+}
+
 .home header .logo {
   width: 100px;
   cursor: pointer;
@@ -75,6 +80,15 @@
   font-weight: 300;
   color: hsl(238, 22%, 44%);
   margin: 15px 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer .sitemap .contact p {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: white;
+  margin: 10px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -291,11 +305,6 @@ footer {
   background: hsl(243, 87%, 12%);
 }
 
-footer .logo {
-  width: 130px;
-  filter: brightness(0) invert(1);
-}
-
 footer .sitemap {
   width: 80%;
   display: flex;
@@ -304,15 +313,6 @@ footer .sitemap {
 
 footer .sitemap .contact {
   flex-basis: 70%;
-}
-
-footer .sitemap .contact p {
-  display: flex;
-  align-items: center;
-  font-size: 12px;
-  color: white;
-  margin: 10px;
-  font-family: "Open Sans", sans-serif;
 }
 
 footer .sitemap .contact p img {
