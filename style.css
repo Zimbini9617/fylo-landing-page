@@ -99,6 +99,15 @@ footer .sitemap .contact p {
   font-family: "Open Sans", sans-serif;
 }
 
+footer .sitemap .socials p {
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 5px;
+  position: relative;
+}
+
 .home .content .leftcolumn p {
   font-size: 18px;
   font-weight: 300;
@@ -282,6 +291,10 @@ footer .sitemap .contact p img {
   font-family: "Open Sans", sans-serif;
 }
 
+footer .sitemap .socials p:hover {
+  border: 1px solid hsl(224, 93%, 58%);
+}
+
 .testimonial .leftcolumn .card .profile p {
   margin: 2px 5px;
   font-size: 10px;
@@ -366,19 +379,6 @@ footer .sitemap .socials {
   position: relative;
 }
 
-footer .sitemap .socials p {
-  width: 25px;
-  height: 25px;
-  border: 1px solid white;
-  border-radius: 50%;
-  margin: 0 5px;
-  position: relative;
-}
-
-footer .sitemap .socials p:hover {
-  border: 1px solid hsl(224, 93%, 58%);
-}
-
 footer .sitemap .socials p .fa {
   width: 10px;
   filter: brightness(0) invert(1);
@@ -406,6 +406,10 @@ footer .sitemap .socials p .fa-instagram {
     padding: 10px 0;
   }
 
+  footer .logo {
+    width: 180px;
+  }
+
   .home header .logo {
     width: 150px;
   }
@@ -419,6 +423,13 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 18px;
   }
 
+  .subscribe .leftcolumn {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .home .content .leftcolumn {
     flex-basis: 100%;
     order: 2;
@@ -430,11 +441,38 @@ footer .sitemap .socials p .fa-instagram {
     margin-top: 30px;
   }
 
+  .testimonial .leftcolumn p {
+    font-size: 30px;
+  }
+
+  footer .sitemap .socials p {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 5px;
+    position: relative;
+  }
+
+  footer .sitemap .contact p {
+    font-size: 22px;
+  }
+
   .home .content .leftcolumn p {
     font-size: 30px;
     font-weight: 300;
     text-align: center;
     margin: 15px;
+  }
+
+  .subscribe .rightcolumn .inputfield input {
+    flex-basis: 90%;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .subscribe .rightcolumn .inputfield {
+    justify-content: center;
   }
 
   .home .content .leftcolumn .inputfield {
@@ -450,11 +488,27 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 26px;
   }
 
+  .subscribe .rightcolumn .inputfield button {
+    flex-basis: 90%;
+    padding: 10px;
+    font-size: 18px;
+  }
+
   .home .content .leftcolumn .inputfield button {
     flex-basis: 90%;
     margin: 10px 0;
     padding: 15px;
     font-size: 26px;
+  }
+
+  .testimonial .rightcolumn {
+    flex-basis: 100%;
+    order: 1;
+  }
+
+  .subscribe .rightcolumn {
+    flex-basis: 100%;
+    margin: 15px 0 30px;
   }
 
   .home .content .rightcolumn {
@@ -464,17 +518,12 @@ footer .sitemap .socials p .fa-instagram {
     margin-top: 30px;
   }
 
-  /**Testimonial section**/
+  /* Testimonial section */
   .testimonial {
     flex-wrap: wrap;
     background-image: url(images/bg-curve-mobile.svg);
     background-position: center;
     background-size: cover;
-  }
-
-  .testimonial .rightcolumn {
-    flex-basis: 100%;
-    order: 1;
   }
 
   .testimonial .leftcolumn {
@@ -489,10 +538,6 @@ footer .sitemap .socials p .fa-instagram {
     text-align: center;
   }
 
-  .testimonial .leftcolumn p {
-    font-size: 30px;
-  }
-
   .testimonial .leftcolumn p br {
     display: none;
   }
@@ -501,6 +546,10 @@ footer .sitemap .socials p .fa-instagram {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .testimonial .leftcolumn .card img {
+    width: 20px;
   }
 
   .testimonial .leftcolumn .button .explore_button {
@@ -524,10 +573,6 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 24px;
   }
 
-  .testimonial .leftcolumn .card img {
-    width: 20px;
-  }
-
   .testimonial .leftcolumn .card .profile img {
     width: 40px;
   }
@@ -541,19 +586,13 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 18px;
   }
 
-  /**Subscribe section**/
+  /* Subscribe section */
+
   .subscribe {
     width: 100%;
     padding: 7%;
     position: relative;
     margin-top: 0px;
-  }
-
-  .subscribe .leftcolumn {
-    flex-basis: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   .subscribe .leftcolumn .content {
@@ -565,48 +604,19 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 28px;
   }
 
-  .subscribe .leftcolumn .content p {
-    font-size: 18px;
-    font-weight: 100;
-  }
-
   .subscribe .leftcolumn .content p br {
     display: none;
   }
 
-  .subscribe .rightcolumn {
-    flex-basis: 100%;
-    margin: 15px 0 30px;
-  }
-
-  .subscribe .rightcolumn .inputfield {
-    justify-content: center;
-  }
-
-  .subscribe .rightcolumn .inputfield input {
-    flex-basis: 90%;
-    padding: 10px;
-    font-size: 18px;
-  }
-
-  .subscribe .rightcolumn .inputfield button {
-    flex-basis: 90%;
-    padding: 10px;
-    font-size: 18px;
-  }
-
-  /**Footer**/
+  /* Footer */
   footer {
     width: 100%;
     padding: 7% 5%;
   }
 
-  footer .logo {
-    width: 180px;
-  }
-
   footer .sitemap {
     flex-wrap: wrap;
+    width: 100%;
   }
 
   footer .sitemap .contact {
@@ -614,10 +624,6 @@ footer .sitemap .socials p .fa-instagram {
     margin-left: -8px;
     margin-bottom: 20px;
     margin-top: 15px;
-  }
-
-  footer .sitemap .contact p {
-    font-size: 22px;
   }
 
   footer .sitemap .links_1 {
@@ -634,26 +640,12 @@ footer .sitemap .socials p .fa-instagram {
     font-weight: 100;
   }
 
-  footer .sitemap {
-    flex-wrap: wrap;
-    width: 100%;
-  }
-
   footer .sitemap .socials {
     flex-basis: 100%;
     margin-bottom: 15px;
     justify-content: center;
     align-items: center;
     display: flex;
-  }
-
-  footer .sitemap .socials p {
-    width: 35px;
-    height: 35px;
-    border: 1px solid white;
-    border-radius: 50%;
-    margin: 0 5px;
-    position: relative;
   }
 
   footer .sitemap .socials p .fa {
@@ -746,7 +738,7 @@ footer .sitemap .socials p .fa-instagram {
     margin-top: 30px;
   }
 
-  /**Testimonial section**/
+  /* Testimonial section */
   .testimonial {
     flex-wrap: wrap;
     background-image: url(images/bg-curve-mobile.svg);
