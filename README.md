@@ -16,7 +16,7 @@ creating a fylo landing page project
 
 ## Live View
 
-[fylo-landing-page]
+[fylo-landing-page](https://verdant-wisp-3377a6.netlify.app/)
 
 👤 **Author1**
 
