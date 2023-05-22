@@ -461,10 +461,6 @@ footer .sitemap .socials p .fa-instagram {
     position: relative;
   }
 
-  .testimonial .leftcolumn p {
-    font-size: 16px;
-  }
-
   footer .sitemap .contact p {
     font-size: 22px;
   }
@@ -726,6 +722,10 @@ footer .sitemap .socials p .fa-instagram {
     margin-top: 30px;
   }
 
+  .testimonial .leftcolumn p {
+    font-size: 14px;
+  }
+
   footer .sitemap .contact p {
     font-size: 14px;
   }
@@ -737,10 +737,6 @@ footer .sitemap .socials p .fa-instagram {
     border-radius: 50%;
     margin: 0 5px;
     position: relative;
-  }
-
-  .testimonial .leftcolumn p {
-    font-size: 14px;
   }
 
   .home .content .leftcolumn p {
