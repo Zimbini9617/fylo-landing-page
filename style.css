@@ -967,6 +967,10 @@ footer .sitemap .socials p .fa-instagram {
     margin-top: 30px;
   }
 
+  footer .sitemap .contact p {
+    font-size: 14px;
+  }
+
   .home .content .leftcolumn p {
     font-size: 15px;
     font-weight: 300;
@@ -1001,7 +1005,7 @@ footer .sitemap .socials p .fa-instagram {
     margin-top: 30px;
   }
 
-  /**Testimonial section**/
+  /* Testimonial section */
   .testimonial {
     flex-wrap: wrap;
     background-image: url(images/bg-curve-mobile.svg);
@@ -1070,7 +1074,7 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 10px;
   }
 
-  /**Subscribe section**/
+  /* Subscribe section */
   .subscribe {
     width: 100%;
     padding: 7%;
@@ -1136,6 +1140,7 @@ footer .sitemap .socials p .fa-instagram {
 
   footer .sitemap {
     flex-wrap: wrap;
+    width: 100%;
   }
 
   footer .sitemap .contact {
@@ -1143,10 +1148,6 @@ footer .sitemap .socials p .fa-instagram {
     margin-left: -8px;
     margin-bottom: 20px;
     margin-top: 15px;
-  }
-
-  footer .sitemap .contact p {
-    font-size: 14px;
   }
 
   footer .sitemap .links_1 {
@@ -1157,11 +1158,6 @@ footer .sitemap .socials p .fa-instagram {
   footer .sitemap .links_1 ul li a {
     font-size: 14px;
     font-weight: 100;
-  }
-
-  footer .sitemap {
-    flex-wrap: wrap;
-    width: 100%;
   }
 
   footer .sitemap .socials {
@@ -1205,6 +1201,10 @@ footer .sitemap .socials p .fa-instagram {
 }
 
 @media only screen and (max-width: 320px) {
+  footer .logo {
+    width: 100px;
+  }
+
   .home header .logo {
     width: 60px;
   }
@@ -1218,6 +1218,20 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 10px;
   }
 
+  .subscribe .leftcolumn {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .testimonial .leftcolumn {
+    flex-basis: 100%;
+    height: 100%;
+    order: 2;
+    margin-top: 30px;
+  }
+
   .home .content .leftcolumn {
     flex-basis: 100%;
     order: 2;
@@ -1227,6 +1241,10 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 25px;
     text-align: center;
     margin-top: 20px;
+  }
+
+  .testimonial .leftcolumn p {
+    font-size: 12px;
   }
 
   footer .sitemap .contact p {
@@ -1250,11 +1268,20 @@ footer .sitemap .socials p .fa-instagram {
     margin: 15px;
   }
 
+  .subscribe .rightcolumn .inputfield {
+    justify-content: center;
+  }
+
   .home .content .leftcolumn .inputfield {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     width: 100%;
+  }
+
+  .subscribe .rightcolumn .inputfield input {
+    flex-basis: 100%;
+    padding: 10px;
   }
 
   .home .content .leftcolumn .inputfield input {
@@ -1268,6 +1295,16 @@ footer .sitemap .socials p .fa-instagram {
     margin: 10px 0;
     padding: 15px;
     font-size: 14px;
+  }
+
+  .subscribe .rightcolumn {
+    flex-basis: 100%;
+    margin: 15px 0 30px;
+  }
+
+  .testimonial .rightcolumn {
+    flex-basis: 100%;
+    order: 1;
   }
 
   .home .content .rightcolumn {
@@ -1284,25 +1321,9 @@ footer .sitemap .socials p .fa-instagram {
     background-size: cover;
   }
 
-  .testimonial .rightcolumn {
-    flex-basis: 100%;
-    order: 1;
-  }
-
-  .testimonial .leftcolumn {
-    flex-basis: 100%;
-    height: 100%;
-    order: 2;
-    margin-top: 30px;
-  }
-
   .testimonial .leftcolumn h2 {
     font-size: 16px;
     text-align: center;
-  }
-
-  .testimonial .leftcolumn p {
-    font-size: 12px;
   }
 
   .testimonial .leftcolumn .button {
@@ -1340,6 +1361,10 @@ footer .sitemap .socials p .fa-instagram {
     margin-left: 5px;
   }
 
+  .subscribe .leftcolumn .content p {
+    font-size: 10px;
+  }
+
   footer .sitemap .socials p:hover {
     border: 1px solid hsl(224, 93%, 58%);
     color: hsl(224, 93%, 58%);
@@ -1350,19 +1375,12 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 10px;
   }
 
-  /**Subscribe section**/
+  /* Subscribe section */
   .subscribe {
     width: 100%;
     padding: 7%;
     position: relative;
-    margin-top: 0px;
-  }
-
-  .subscribe .leftcolumn {
-    flex-basis: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 0;
   }
 
   .subscribe .leftcolumn .content {
@@ -1374,38 +1392,16 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 15px;
   }
 
-  .subscribe .leftcolumn .content p {
-    font-size: 10px;
-  }
-
-  .subscribe .rightcolumn {
-    flex-basis: 100%;
-    margin: 15px 0 30px;
-  }
-
-  .subscribe .rightcolumn .inputfield {
-    justify-content: center;
-  }
-
-  .subscribe .rightcolumn .inputfield input {
-    flex-basis: 100%;
-    padding: 10px;
-  }
-
   .subscribe .rightcolumn .inputfield button {
     flex-basis: 100%;
     padding: 15px;
     font-size: 16px;
   }
 
-  /**Footer**/
+  /* Footer */
   footer {
     width: 100%;
     padding: 7% 5%;
-  }
-
-  footer .logo {
-    width: 100px;
   }
 
   footer .sitemap {
