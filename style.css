@@ -461,6 +461,10 @@ footer .sitemap .socials p .fa-instagram {
     position: relative;
   }
 
+  .testimonial .leftcolumn p {
+    font-size: 16px;
+  }
+
   footer .sitemap .contact p {
     font-size: 22px;
   }
@@ -726,8 +730,17 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 14px;
   }
 
+  footer .sitemap .socials p {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 5px;
+    position: relative;
+  }
+
   .testimonial .leftcolumn p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .home .content .leftcolumn p {
@@ -776,6 +789,11 @@ footer .sitemap .socials p .fa-instagram {
   .testimonial .rightcolumn {
     flex-basis: 100%;
     order: 1;
+  }
+
+  .subscribe .rightcolumn {
+    flex-basis: 100%;
+    margin: 15px 0 30px;
   }
 
   .home .content .rightcolumn {
@@ -865,11 +883,6 @@ footer .sitemap .socials p .fa-instagram {
     display: none;
   }
 
-  .subscribe .rightcolumn {
-    flex-basis: 100%;
-    margin: 15px 0 30px;
-  }
-
   /* Footer */
   footer {
     width: 100%;
@@ -906,15 +919,6 @@ footer .sitemap .socials p .fa-instagram {
     display: flex;
   }
 
-  footer .sitemap .socials p {
-    width: 25px;
-    height: 25px;
-    border: 1px solid white;
-    border-radius: 50%;
-    margin: 0 5px;
-    position: relative;
-  }
-
   footer .sitemap .socials p .fa {
     width: 10px;
     filter: brightness(0) invert(1);
@@ -943,6 +947,10 @@ footer .sitemap .socials p .fa-instagram {
     padding: 10px 0;
   }
 
+  footer .logo {
+    width: 150px;
+  }
+
   .home header .logo {
     width: 70px;
   }
@@ -954,6 +962,20 @@ footer .sitemap .socials p .fa-instagram {
 
   .home header nav ul li a {
     font-size: 12px;
+  }
+
+  .testimonial .leftcolumn {
+    flex-basis: 100%;
+    height: 100%;
+    order: 2;
+    margin-top: 50px;
+  }
+
+  .subscribe .leftcolumn {
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .home .content .leftcolumn {
@@ -971,11 +993,24 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 14px;
   }
 
+  footer .sitemap .socials p {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: 0 5px;
+    position: relative;
+  }
+
   .home .content .leftcolumn p {
     font-size: 15px;
     font-weight: 300;
     text-align: center;
     margin: 15px;
+  }
+
+  .subscribe .rightcolumn .inputfield {
+    justify-content: center;
   }
 
   .home .content .leftcolumn .inputfield {
@@ -985,8 +1020,20 @@ footer .sitemap .socials p .fa-instagram {
     width: 100%;
   }
 
+  .subscribe .rightcolumn .inputfield input {
+    flex-basis: 80%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
   .home .content .leftcolumn .inputfield input {
     flex-basis: 90%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .subscribe .rightcolumn .inputfield button {
+    flex-basis: 80%;
     padding: 10px;
     font-size: 16px;
   }
@@ -996,6 +1043,16 @@ footer .sitemap .socials p .fa-instagram {
     margin: 10px 0;
     padding: 10px;
     font-size: 16px;
+  }
+
+  .testimonial .rightcolumn {
+    flex-basis: 100%;
+    order: 1;
+  }
+
+  .subscribe .rightcolumn {
+    flex-basis: 100%;
+    margin: 15px 0 30px;
   }
 
   .home .content .rightcolumn {
@@ -1013,25 +1070,9 @@ footer .sitemap .socials p .fa-instagram {
     background-size: cover;
   }
 
-  .testimonial .rightcolumn {
-    flex-basis: 100%;
-    order: 1;
-  }
-
-  .testimonial .leftcolumn {
-    flex-basis: 100%;
-    height: 100%;
-    order: 2;
-    margin-top: 50px;
-  }
-
   .testimonial .leftcolumn h2 {
     font-size: 18px;
     text-align: center;
-  }
-
-  .testimonial .leftcolumn p {
-    font-size: 14px;
   }
 
   .testimonial .leftcolumn p br {
@@ -1069,6 +1110,11 @@ footer .sitemap .socials p .fa-instagram {
     margin-left: 5px;
   }
 
+  .subscribe .leftcolumn .content p {
+    font-size: 14px;
+    font-weight: 100;
+  }
+
   .testimonial .leftcolumn .card .profile p {
     margin: 2px 5px;
     font-size: 10px;
@@ -1079,14 +1125,7 @@ footer .sitemap .socials p .fa-instagram {
     width: 100%;
     padding: 7%;
     position: relative;
-    margin-top: 0px;
-  }
-
-  .subscribe .leftcolumn {
-    flex-basis: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 0;
   }
 
   .subscribe .leftcolumn .content {
@@ -1098,44 +1137,14 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 20px;
   }
 
-  .subscribe .leftcolumn .content p {
-    font-size: 14px;
-    font-weight: 100;
-  }
-
   .subscribe .leftcolumn .content p br {
     display: none;
   }
 
-  .subscribe .rightcolumn {
-    flex-basis: 100%;
-    margin: 15px 0 30px;
-  }
-
-  .subscribe .rightcolumn .inputfield {
-    justify-content: center;
-  }
-
-  .subscribe .rightcolumn .inputfield input {
-    flex-basis: 80%;
-    padding: 10px;
-    font-size: 16px;
-  }
-
-  .subscribe .rightcolumn .inputfield button {
-    flex-basis: 80%;
-    padding: 10px;
-    font-size: 16px;
-  }
-
-  /**Footer**/
+  /* Footer */
   footer {
     width: 100%;
     padding: 7% 5%;
-  }
-
-  footer .logo {
-    width: 150px;
   }
 
   footer .sitemap {
@@ -1166,15 +1175,6 @@ footer .sitemap .socials p .fa-instagram {
     justify-content: center;
     align-items: center;
     display: flex;
-  }
-
-  footer .sitemap .socials p {
-    width: 25px;
-    height: 25px;
-    border: 1px solid white;
-    border-radius: 50%;
-    margin: 0 5px;
-    position: relative;
   }
 
   footer .sitemap .socials p .fa {
@@ -1290,6 +1290,12 @@ footer .sitemap .socials p .fa-instagram {
     font-size: 14px;
   }
 
+  .subscribe .rightcolumn .inputfield button {
+    flex-basis: 100%;
+    padding: 15px;
+    font-size: 16px;
+  }
+
   .home .content .leftcolumn .inputfield button {
     flex-basis: 80%;
     margin: 10px 0;
@@ -1390,12 +1396,6 @@ footer .sitemap .socials p .fa-instagram {
 
   .subscribe .leftcolumn .content h3 {
     font-size: 15px;
-  }
-
-  .subscribe .rightcolumn .inputfield button {
-    flex-basis: 100%;
-    padding: 15px;
-    font-size: 16px;
   }
 
   /* Footer */
